@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "",
+		"name": "mern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25008492"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": \"55\",\n    \"price\": 55.84\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{dev}}",
+					"host": [
+						"{{dev}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
